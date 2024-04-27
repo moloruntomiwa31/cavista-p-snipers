@@ -27,7 +27,6 @@
               :href="link.href"
               :class="{ disabled: !user.userKey }"
               target="_blank"
-              @click="user.userKey ? $event.preventDefault() : null"
               >{{ link.text }}</a
             >
           </div>

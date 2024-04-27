@@ -15,6 +15,12 @@
         active-class="active"
         >{{ link.name }}</RouterLink
       >
+      <a
+        target="_blank"
+        class="hover:text-[#9A031E]"
+        href="https://public.tableau.com/views/PREDICTIONDATASET/Dashboard3?:language=en-GB&publish=yes&:sid=CD18AA06EECF4C5483AB6FA9B0286977-0:0&:display_count=n&:origin=viz_share_link"
+        >Tableau Visualization</a
+      >
       <div class="dropdown">
         <RouterLink to="/aiModel" class="dropbtn" active-class="active"
           >AIModel</RouterLink
